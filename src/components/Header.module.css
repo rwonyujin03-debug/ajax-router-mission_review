@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+.nav a.active {
+  text-decoration: underline;
+  font-weight: 700;
+}
